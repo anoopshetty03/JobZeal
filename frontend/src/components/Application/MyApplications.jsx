@@ -66,6 +66,9 @@ const MyApplications = () => {
       );
       if (response.data.success) {
         toast.success("Status updated successfully");
+        setTimeout(() => {
+          toast.success("Email sent successfully");
+        }, 2000);
         setApplications((prevApplications) =>
           prevApplications.map((application) =>
             application._id === applicationId
