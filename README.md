@@ -7,3 +7,7 @@
 ## Use Case Diagram
 
 ![Use Case Diagram](Use%20Case%20Diagram.png)
+
+## Flow Diagram
+
+![Flow Diagram](FlowDiagram.png)
